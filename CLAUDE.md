@@ -32,6 +32,7 @@ _template-model/        # gabarit à copier pour un nouveau template
 
 ## Conventions
 
+- **Workflow git/Jira** : boucle standard du `CLAUDE.md` racine (section « Workflow git & Jira ») — travail sur `feature|fix/SS-<num>-<slug>` créées via `/nouvelle-branche` depuis `dev`, jamais de commit direct sur `main`/`dev`, synchro Jira via `/point-avancement`.
 - **Un dossier = une application**, kebab-case.
 - **Config par défaut fonctionnelle immédiatement** (SF-6.2) : utilisable sans paramétrage obligatoire, valeurs par défaut raisonnables.
 - **Aucun secret en dur** : tout identifiant généré à la volée par le moteur de déploiement, jamais une valeur fixe.
